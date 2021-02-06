@@ -1,5 +1,3 @@
 .idea/
 venv/
 main.spec
-dist/
-build/
