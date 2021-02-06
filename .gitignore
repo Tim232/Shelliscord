@@ -1,5 +1,8 @@
 .idea/
+.vscode/
 venv/
 main.spec
 dist/
 build/
+__pycache__/
+*.pyc
