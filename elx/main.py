@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
+import os
 
 def login(email, password):
     driver = webdriver.Chrome("../ChromeDriver/chromedriver.exe")
