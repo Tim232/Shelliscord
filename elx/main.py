@@ -10,7 +10,8 @@ def login(email, password):
     username_input.send_keys(email)
     password_input = driver.find_element_by_name('password')
     password_input.send_keys(password)
-    login_button = driver.find_element_by_xpath('//*[@id="app-mount"]/div[2]/div/div[2]/div/div/form/div/div/div[1]/div[3]/button[2]')
+    element_string = '//*[@id="app-mount"]/div[2]/div/div[2]/div/div/form/div/div/div[1]/div[3]/button[2]'
+    login_button = driver.find_element_by_xpath(element_string)
     login_button.click()
 
 print("Your Discord account's E-mail >>")
