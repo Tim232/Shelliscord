@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 
 def login(email, password):
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome("../ChromeDriver/chromedriver.exe")
 
     driver.get("https://discord.com/login")
     username_input = driver.find_element_by_name('email')
